@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your NFL Trivia Stats | NFL Quiz</title>
+    <meta name="description" content="View your NFL quiz progress, completed quizzes, and overall performance stats.">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/svg+xml" 
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%25%22 y=%2252%25%22 font-size=%2275%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>🏈</text></svg>">
+</head>
+
+<body class="quiz-list-page stats-page">
+
+<header>
+    <h1 class="site-title">NFL Trivia</h1>
+</header>
+
+<button class="back-btn" onclick="window.location.href='index.html'">
+    ← Back
+</button>
+
+<main class="container">
+    <h2>Your Quiz Stats</h2>
+
+    <!-- SUMMARY -->
+    <div id="statsSummary"></div>
+
+    <!-- OPTIONAL: LIST OF COMPLETED QUIZZES -->
+    <div id="completedList"></div>
+</main>
+
+<script src="js/just-quizzes.js"></script>
+<script src="js/stats.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,645 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* ================= RESET ================= */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= BODY ================= */
+
+body {
+    margin: 0;
+    background: radial-gradient(
+        circle at top,
+        #1a1f24 0%,
+        #0b0f12 60%
+    );
+    color: #ffffff;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    background: transparent;
+    border-bottom: 1px solid rgba(58, 191, 248, 0.15);
+}
+
+.site-title {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #3abff8, #7dd3fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ================= MAIN ================= */
+
+main {
+    display: block;
+}
+
+/* ================= CONTAINER ================= */
+
+.container {
+    padding: 30px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ================= BACK BUTTON (DEFAULT) ================= */
+
+.back-btn {
+    background: transparent;
+    border: none;
+    color: #3abff8;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
+
+/* ================= HEADINGS ================= */
+
+h1, h2 {
+    margin: 0 0 20px;
+}
+
+.container h2 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #e5e7eb;
+}
+
+.container h2::after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 3px;
+    background: #3abff8;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* ================= BUTTONS ================= */
+
+.primary-btn {
+    background-color: #3abff8;
+    color: #000;
+}
+
+.category-btn,
+.difficulty-btn {
+    background-color: #1f2933;
+    color: #e5e7eb;
+}
+
+.primary-btn,
+.category-btn,
+.difficulty-btn {
+    border: none;
+    padding: 15px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.primary-btn:hover,
+.category-btn:hover,
+.difficulty-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* ================= QUIZ INTRO BUTTON ALIGN ================= */
+
+#startQuizBtn,
+#resumeQuizBtn {
+    width: 150px;          /* Trimmed width */
+    margin: 15px auto;
+    display: block;
+}
+
+/* ================= LANDING PAGE BUTTON WIDTH ================= */
+
+.landing-page .primary-btn,
+.landing-page .category-btn,
+.landing-page .stats-btn {
+    width: 100%;
+    max-width: 950px;   /* Adjust this if you want wider */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Slightly larger Random button */
+
+.landing-page #randomQuizBtn {
+    font-size: 18px;
+    padding: 18px 24px;
+}
+
+/* Make landing page container wider */
+.landing-page .container {
+    max-width: 1000px;   /* adjust as you like */
+}
+
+/* ================= CATEGORIES ================= */
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.category-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* ================= LANDING PAGE SEPARATOR ================= */
+
+.landing-separator {
+    width: 100%;
+    max-width: 520px;
+    height: 1px;
+    background: rgba(58, 191, 248, 0.25);
+    margin: 40px auto 30px;
+}
+
+/* ================= QUIZ LIST ================= */
+
+#quizList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.quiz-item {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.quiz-item .category-btn {
+    width: 100%;
+}
+
+.completed-badge {
+    position: absolute;
+    top: -8px;
+    right: 8px;
+    background: #22c55e;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 999px;
+}
+
+/* ================= QUIZ LIST PAGE (BACK BUTTON POSITION FIX) ================= */
+
+.quiz-list-page header {
+    position: relative;
+}
+
+.quiz-list-page .container {
+    padding-top: 20px;
+}
+
+.quiz-list-page .back-btn {
+    margin: 20px 0 0 32px;
+}
+
+/* ================= MODAL ================= */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #11161b;
+    padding: 30px;
+    border-radius: 12px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ================= STATES ================= */
+
+.correct {
+    background-color: #22c55e !important;
+    color: #000;
+}
+
+.wrong {
+    background-color: #ef4444 !important;
+    color: #000;
+}
+
+.disabled {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ================= QUIZ / RESULT ================= */
+
+#resultScreen {
+    padding: 2rem;
+}
+
+/* ================= DIFFICULTY BUTTON ================= */
+
+#changeDifficultyBtn {
+    background: transparent;
+    border: 1px solid #3abff8;
+    color: #3abff8;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#changeDifficultyBtn:hover {
+    background-color: #3abff8;
+    color: #000;
+}
+
+/* ================= QUIZ PAGE (BACK BUTTON POSITION FIX) ================= */
+
+.quiz-page .back-btn {
+    margin: 20px 0 0 32px;
+}
+
+/* ================= STATS PAGE ================= */
+
+.stats-overview {
+    margin-top: 30px;
+    padding: 24px;
+    background: #11161b;
+    border-radius: 16px;
+    border: 1px solid rgba(58, 191, 248, 0.25);
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+.stat-row span {
+    color: #9ca3af;
+}
+
+.stat-row strong {
+    color: #3abff8;
+    font-size: 22px;
+}
+
+/* Progress bar */
+
+.progress-bar {
+    margin-top: 20px;
+    height: 10px;
+    background: #1f2933;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3abff8, #7dd3fc);
+}
+
+/* ================= AD SLOTS ================= */
+
+.ad-slot {
+    width: 160px;
+    height: 600px;
+    background: transparent;
+    flex-shrink: 0;
+}
+
+.ad-slot-horizontal {
+    width: 100%;
+    height: 90px;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.page-with-ads {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+#quizList {
+    width: 100%;
+    max-width: 400px;
+}
+
+.content-column {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quiz-item {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.ad-placeholder {
+    visibility: hidden;
+}
+
+/* ================= STATS PAGE SCROLL ENABLE ================= */
+
+.stats-page {
+    overflow-y: auto;
+}
+
+/* ================= MOBILE FIX ================= */
+
+@media (max-width: 900px) {
+
+    .page-with-ads {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ad-slot {
+        display: none;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    .landing-page .category-btn,
+    .landing-page .primary-btn,
+    .landing-page .stats-btn {
+        max-width: 100%;
+    }
+
+    .content-column {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#quizList {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+}
+
+
+/* ================= MOBILE OPTIMIZATION ================= */
+
+@media (max-width: 768px) {
+
+    .quiz-list-page .page-with-ads {
+    width: 100%;
+    align-items: center;
+}
+
+.quiz-list-page #quizList {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+    .ad-slot,
+    .ad-slot-horizontal {
+        display: none;
+    }
+
+    /* Fix background color issue */
+    body {
+        min-height: 100vh;
+        background: radial-gradient(
+            circle at top,
+            #1a1f24 0%,
+            #0b0f12 60%
+        );
+    }
+
+    main {
+        background: transparent;
+    }
+
+    /* Keep header layout normal */
+    header {
+        padding: 18px 20px;
+    }
+
+    /* Center text ONLY inside elements */
+    h1,
+    h2,
+    .container h2,
+    .modal-content h2,
+    .question-text {
+        text-align: center;
+    }
+
+    /* IMPORTANT: Keep logo left aligned */
+    .site-title {
+        text-align: left;
+        line-height: 1.2;
+    }
+
+    /* Difficulty buttons stacked */
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+
+    .difficulty-btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Add spacing between quiz answers */
+    .category-btn,
+    .quiz-item .category-btn {
+        margin-bottom: 10px;
+    }
+
+    /* Make landing buttons tighter on mobile */
+    .landing-page .primary-btn,
+    .landing-page .category-btn,
+    .landing-page .stats-btn {
+        width: 100% !important;
+        max-width: 200px !important;
+        display: block;
+        margin: 10px auto;
+    }
+
+    /* Better mobile padding */
+    .container {
+        padding: 25px 18px;
+    }
+}
+
+
+/* Fix quiz list centering on mobile */
+.content-column {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#quizList {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+/* Fix landing spacing after mobile ad */
+
+.categories {
+    gap: 12px;
+}
+
+.mobile-ad {
+    margin: 20px auto;
+}
+
+
+/* ================= MOBILE AD PLACEHOLDERS ================= */
+
+.mobile-ad {
+    display: none;
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+
+    .mobile-ad {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: 50px; /* Standard mobile banner size */
+        margin: 25px auto;
+        border-radius: 8px;
+        background: rgba(255,255,255,0.05); /* subtle placeholder */
+    }
+}
+
+
+/* ================= MOBILE AD PLACEHOLDERS (INVISIBLE) ================= */
+
+.mobile-ad {
+    display: none;
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+
+    .mobile-ad {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        height: 50px; /* Standard mobile banner size */
+        margin: 25px auto;
+        visibility: hidden; /* invisible but space reserved */
+    }
+}
+
+/* ================= QUIZ LIST MOBILE OVERRIDE ================= */
+
+@media (max-width: 768px) {
+
+    /* Stop flex behavior from container */
+    .quiz-list-page .container {
+        display: block;
+    }
+
+    /* Disable flex layout wrapper */
+    .quiz-list-page .page-with-ads {
+        display: block;
+        width: 100%;
+    }
+
+    /* Properly center the content column */
+    .quiz-list-page .content-column {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+/* ================= QUIZ LIST BUTTON WIDTH FIX ================= */
+
+@media (max-width: 768px) {
+
+    .quiz-list-page .quiz-item .category-btn {
+        max-width: 280px;
+        margin: 0 auto 10px auto;
+    }
+
+}

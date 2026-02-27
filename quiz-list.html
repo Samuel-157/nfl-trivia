@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Trivia Categories | NFL Quiz</title>
+    <meta name="description" content="Choose from NFL player quizzes, draft quizzes, and team quizzes. Select your challenge and test your football knowledge.">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/svg+xml" 
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%25%22 y=%2252%25%22 font-size=%2275%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>🏈</text></svg>">
+</head>
+
+<body class="quiz-list-page">
+
+<header>
+    <h1 class="site-title">NFL Trivia</h1>
+</header>
+
+<button id="backBtn" class="back-btn">← Back</button>
+
+<main class="container">
+
+    <h2>Choose a Quiz</h2>
+
+    <div class="page-with-ads">
+
+        <div class="ad-slot ad-placeholder"></div>
+
+        <div class="content-column">
+            <div id="quizList"></div>
+            <div class="mobile-ad"></div>
+        </div>
+
+        <div class="ad-slot"></div>
+
+    </div>
+
+</main>
+
+<!-- ✅ LOAD QUIZ DATA FIRST -->
+<script src="js/just-quizzes.js"></script>
+
+<!-- ✅ THEN THE LOGIC -->
+<script src="js/quiz-list.js"></script>
+
+</body>
+</html>

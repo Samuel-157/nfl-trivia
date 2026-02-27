@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Trivia | Play Now</title>
+    <meta name="description" content="Play an NFL quiz and test your football knowledge. Answer multiple choice questions and see your final score instantly.">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/svg+xml" 
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%25%22 y=%2252%25%22 font-size=%2275%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>🏈</text></svg>">
+</head>
+<body class="quiz-page">
+
+<header>
+    <h1 class="site-title">NFL Trivia</h1>
+</header>
+
+<button id="backHomeBtn" class="back-btn">← Back</button>
+
+<main class="container">
+
+    <div id="quizIntro">
+        <h2 id="introTitle"></h2>
+        <p id="introMeta"></p>
+        <button id="startQuizBtn" class="primary-btn">Start Quiz</button>
+        <button id="resumeQuizBtn" class="category-btn hidden">
+        Resume Quiz
+        </button>
+        <div class="mobile-ad"></div>
+    </div>
+
+    <div id="quizContainer" class="hidden">
+        <h2 id="questionText"></h2>
+        <div id="answers"></div>
+        <div class="mobile-ad"></div>
+        <button id="nextBtn" class="primary-btn hidden">Next Question</button>
+    </div>
+
+    <div id="resultScreen" class="hidden">
+        <h2 id="resultTitle"></h2>
+        <p id="resultScore"></p>
+        <p id="resultMeta"></p>
+        <p id="resultMessage"></p>
+        <div class="mobile-ad"></div>
+    </div>
+
+    <div class="ad-slot-horizontal"></div>
+
+</main>
+
+<div class="ad-slot-horizontal"></div>
+
+<script src="js/just-quizzes.js"></script>
+<script src="js/quiz.js"></script>
+</body>
+</html>

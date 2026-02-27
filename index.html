@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Trivia - Test Your NFL Knowledge</title>
+    <meta name="description" content="Test your NFL knowledge with fun quizzes for beginners, intermediate, and expert fans. Play random quizzes, choose categories, and track your stats.">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/svg+xml" 
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%25%22 y=%2252%25%22 font-size=%2275%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>🏈</text></svg>">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="NFL Quiz – Test Your NFL Knowledge">
+    <meta property="og:description" content="Play NFL quizzes for beginners to experts. Track your stats and challenge yourself.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:image" content="https://yourdomain.com/preview-image.jpg">
+    <meta name="theme-color" content="#0b0f12">
+</head>
+
+<body class="landing-page">
+
+<header>
+    <h1 class="site-title">NFL Trivia</h1>
+    <button id="changeDifficultyBtn">Change Difficulty</button>
+</header>
+
+<main class="layout page-with-ads">
+
+    <div class="ad-slot"></div>
+
+    <div class="container">
+
+        <button id="randomQuizBtn" class="primary-btn">
+            🎲 Random Quiz
+        </button>
+
+        <h2>Categories</h2>
+
+        <div class="categories">
+            <button class="category-btn" data-category="players">Player Quizzes</button>
+            <button class="category-btn" data-category="draft">Draft Quizzes</button>
+            <button class="category-btn" data-category="teams">Team Quizzes</button>
+        </div>
+
+        <div class="landing-separator"></div>
+
+        <button class="primary-btn stats-btn"
+            onclick="window.location.href='stats.html'">
+            📊 My Stats
+        </button>
+
+        <div class="mobile-ad"></div>
+
+    </div>
+
+    <div class="ad-slot"></div>
+
+</main>
+
+<div id="difficultyModal" class="modal hidden">
+    <div class="modal-content">
+        <h2>Select Your NFL Knowledge Level</h2>
+        <button class="difficulty-btn" data-level="beginner">Beginner</button>
+        <button class="difficulty-btn" data-level="intermediate">Intermediate</button>
+        <button class="difficulty-btn" data-level="expert">Expert</button>
+    </div>
+</div>
+
+<script src="js/difficulty.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
