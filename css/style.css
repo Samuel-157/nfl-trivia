@@ -642,4 +642,13 @@ h1, h2 {
         margin: 0 auto 10px auto;
     }
 
+
+}
+
+.site-footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
 }
