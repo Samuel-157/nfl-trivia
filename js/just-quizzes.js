@@ -533,6 +533,64 @@ window.quizzes = [
             }
         ]
     },
+            {
+        id: "medium-player-quiz-2",
+        title: "Tom Brady Quiz",
+        category: "players",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Where did Tom Brady go to college?",
+                answers: ["Ohio State", "Michigan", "Notre Dame", "Florida", ],
+                correct: 1
+            },
+            {
+                question: "How many Super Bowl rings did Tom Brady win?",
+                answers: ["3", "4", "6", "7"],
+                correct: 3
+            },
+            {
+                question: "Which team did Tom Brady join after leaving the New England Patriots?",
+                answers: ["Tampa Bay Buccaneers", "Kansas City Chiefs", "Miami Dolphins", "Las Vegas Raiders"],
+                correct: 0
+            },
+            {
+                question: "Which player caught the most receiving yards from Tom Brady?",
+                answers: ["Randy Moss", "Rob Gronkowski", "Wes Welker", "Mike Evans"],
+                correct: 1
+            },
+            {
+                question: "How many Super Bowl rings did Tom Brady win with the New England Patriots?",
+                answers: ["2", "3", "6", "8"],
+                correct: 2
+            },
+            {
+                question: "Tom Brady is now a minority owner of which NFL team?",
+                answers: ["New England Patriots", "NY Jets", "Tampa Bay Buccaneers", "Las Vegas Raiders"],
+                correct: 3
+            },
+            {
+                question: "How many years did Tom Brady play in the NFL?",
+                answers: ["18", "20", "23", "25"],
+                correct: 2
+            },
+            {
+                question: "In which round was Tom Brady selected in the 2000 NFL Draft?",
+                answers: ["1st round", "2nd round", "5th round", "6th round"],
+                correct: 3
+            },
+            {
+                question: "Which team did Tom Brady defeat in his first Super Bowl victory?",
+                answers: ["St. Louis Rams", "Denver Broncos", "Green Bay Packers", "Indianapolis Colts"],
+                correct: 0
+            },
+            {
+                question: "Which team did Tom Brady defeat in his last Super Bowl victory?",
+                answers: ["Cincinnati Bengals", "Kansas City Chiefs", "Philadelphia Eagles", "San Francisco 49ers"],
+                correct: 1
+            }
+        ]
+    },
         {
         id: "medium-teams-quiz",
         title: "Guess the stadium of following NFL teams",
@@ -944,3 +1002,4 @@ window.quizzes = [
     },
 //#endregion
 ];
+
