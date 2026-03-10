@@ -1061,6 +1061,66 @@ window.quizzes = [
             }
         ]
     },
+
+            {
+        id: "hard-draft-quiz 3",
+        title: "Guess the NFL draft year by the selected players",
+        category: "draft",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "In which year was Khalil Mack drafted?",
+                answers: ["2010", "2012", "2014", "2015"],
+                correct: 2
+            },
+            {
+                question: "In which year was Dalton Kincaid drafted?",
+                answers: ["2019", "2021", "2022", "2023"],
+                correct: 3
+            },
+            {
+                question: "In which year was Patrick Queen drafted?",
+                answers: ["2018", "2019", "2020", "2022"],
+                correct: 2
+            },
+            {
+                question: "In which year was Marcedes Lewis drafted?",
+                answers: ["2005", "2006", "2008", "2009"],
+                correct: 1
+            },
+            {
+                question: "In which year was Ezekiel Elliott drafted?",
+                answers: ["2014", "2016", "2017", "2018"],
+                correct: 1
+            },
+            {
+                question: "In which year was D.J. Moore drafted?",
+                answers: ["2018", "2019", "2020", "2021"],
+                correct: 0
+            },
+            {
+                question: "In which year was Cooper Dejean drafted?",
+                answers: ["2021", "2023", "2024", "2025"],
+                correct: 2
+            },
+            {
+                question: "In which year was Henry Ruggs drafted?",
+                answers: ["2018", "2020", "2021", "2022"],
+                correct: 1
+            },
+            {
+                question: "In which year was Cameron Jordan drafted?",
+                answers: ["2011", "2012", "2014", "2015"],
+                correct: 0
+            },
+            {
+                question: "In which year was Vita Vea drafted?",
+                answers: ["2014", "2015", "2016", "2018"],
+                correct: 3
+            }
+        ]
+    },
+
     {
         id: "hard-teams-quiz",
         title: "NFL franchise history quiz",
@@ -1121,6 +1181,7 @@ window.quizzes = [
     },
 //#endregion
 ];
+
 
 
 
