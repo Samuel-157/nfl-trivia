@@ -245,22 +245,22 @@ window.quizzes = [
         difficulty: "easy",
         questions: [
             {
-                question: "Guess the name: New England - ?",
+                question: "Guess the team name: New England - ?",
                 answers: ["Saints", "Chiefs", "Rams", "Patriots"],
                 correct: 3
             },
             {
-                question: "Guess the city: Seahawks?",
+                question: "Which city are the Seahawks from?",
                 answers: ["Portland", "Los Angeles", "Seattle", "Denver"],
                 correct: 2
             },
             {
-                question: "Guess the name: Tampa Bay - ?",
-                answers: ["Pirates", "Raiders", "Seaman", "Buccaneers"],
+                question: "Guess the team name: Tampa Bay - ?",
+                answers: ["Pirates", "Raiders", "Sailors", "Buccaneers"],
                 correct: 3
             },
             {
-                question: "Guess the city: Browns?",
+                question: "Which city are the Browns from?",
                 answers: ["Indianapolis", "Cleveland", "Chicago", "Pittsburgh"],
                 correct: 1
             },
@@ -270,7 +270,7 @@ window.quizzes = [
                 correct: 3
             },
             {
-                question: "Guess the city: Cowboys?",
+                question: "Which city are the Cowboys from?",
                 answers: ["Houston", "Oklahoma City", "Dallas", "Birmingham"],
                 correct: 2
             },
@@ -280,7 +280,7 @@ window.quizzes = [
                 correct: 0
             },
             {
-                question: "Guess the city: Chiefs?",
+                question: "Which city are the Chiefs from?",
                 answers: ["Topeka", "Las Vegas", "Little Rock", "Kansas City"],
                 correct: 3
             },
@@ -290,7 +290,7 @@ window.quizzes = [
                 correct: 1
             },
             {
-                question: "Guess the city: Dolphins?",
+                question: "Which city are the Dolphins from?",
                 answers: ["Atlanta", "Savannah", "Miami", "Charlotte"],
                 correct: 2
             }
@@ -303,22 +303,22 @@ window.quizzes = [
         difficulty: "easy",
         questions: [
             {
-                question: "Guess the name: Buffalo - ?",
+                question: "Guess the team name: Buffalo - ?",
                 answers: ["Colts", "Rams", "Bills", "Bengals"],
                 correct: 2
             },
             {
-                question: "Guess the city: Chargers?",
+                question: "Which city are the Chargers from?",
                 answers: ["San Francisco", "Oklahoma City", "Topeka", "Los Angeles"],
                 correct: 3
             },
             {
-                question: "Guess the name: Las Vegas - ?",
+                question: "Guess the team name: Las Vegas - ?",
                 answers: ["Raiders", "Sharks", "Gamblers", "Pirates"],
                 correct: 0
             },
             {
-                question: "Guess the city: Bengals?",
+                question: "Which city are the Bengals from?",
                 answers: ["Akron", "Pittsburgh", "Portland", "Cincinnati"],
                 correct: 3
             },
@@ -328,7 +328,7 @@ window.quizzes = [
                 correct: 2
             },
             {
-                question: "Guess the city: Texans?",
+                question: "Which city are the Texans from?",
                 answers: ["Las Vegas", "San Antonio", "Austin", "Houston"],
                 correct: 3
             },
@@ -338,7 +338,7 @@ window.quizzes = [
                 correct: 1
             },
             {
-                question: "Guess the city: Jaguars?",
+                question: "Which city are the Jaguars from?",
                 answers: ["Savannah", "Jacksonville", "Orlando", "Chicago"],
                 correct: 1
             },
@@ -348,9 +348,68 @@ window.quizzes = [
                 correct: 2
             },
             {
-                question: "Guess the city: Commanders?",
+                question: "Which city are the Commanders from?",
                 answers: ["Washington D.C.", "New York", "Concord", "Boston"],
                 correct: 0
+            }
+        ]
+    },
+
+    {
+        id: "easy-teams-quiz 3",
+        title: "Guess the name of the NFL team 3",
+        category: "teams",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "Guess the team name: Baltimore - ?",
+                answers: ["Chiefs", "Ravens", "Thunders", "Browns"],
+                correct: 1
+            },
+            {
+                question: "Which city are the Steelers from?",
+                answers: ["San Diego", "Des Moines", "Philadelphia", "Pittsburgh"],
+                correct: 3
+            },
+            {
+                question: "Guess the team name: Philadelphia - ?",
+                answers: ["Red Jackets", "Wolverines", "Pirates", "Eagles"],
+                correct: 3
+            },
+            {
+                question: "Which city are the Giants from?",
+                answers: ["New York", "Toronto", "Seattle", "Olympia"],
+                correct: 0
+            },
+            {
+                question: "Guess the team name: San Francisco - ?",
+                answers: ["Browns", "76ers", "49ers", "Pistons"],
+                correct: 2
+            },
+            {
+                question: "Which city are the Rams from?",
+                answers: ["Los Angeles", "Las Vegas", "St. Louis", "Richmond"],
+                correct: 0
+            },
+            {
+                question: "Guess the team name: Detroit - ?",
+                answers: ["Fighters", "Cars", "Cowboys", "Lions"],
+                correct: 3
+            },
+            {
+                question: "Which city are the Packers from?",
+                answers: ["St. Paul", "Green Bay", "Wichita", "Milwaukee"],
+                correct: 1
+            },
+            {
+                question: "Guess the team name: Atlanta - ?",
+                answers: ["Astros", "Falcons", "Hurricanes", "Ravens"],
+                correct: 1
+            },
+            {
+                question: "Which city are the Jets from?",
+                answers: ["Austin", "Jackson", "New York", "Dallas"],
+                correct: 2
             }
         ]
     },
