@@ -534,6 +534,65 @@ window.quizzes = [
         ]
     },
 
+        {
+        id: "medium-draft-quiz 3",
+        title: "Guess the First Overall Pick of the following NFL Drafts",
+        category: "draft",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Who was the first overall pick in the 2021 NFL Draft?",
+                answers: ["Ja'Marr Chase", "Zach Wilson", "Micah Parsons", "Trevor Lawrence"],
+                correct: 3
+            },
+            {
+                question: "Who was the first overall pick in the 2014 NFL Draft?",
+                answers: ["Jadeveon Clowney", "Blake Bortles", "Khalil Mack", "Derek Carr"],
+                correct: 0
+            },
+            {
+                question: "Who was the first overall pick in the 2022 NFL Draft?",
+                answers: ["Kenny Pickett", "Travon Walker", "Aidan Hutchinson", "Drake London"],
+                correct: 1
+            },
+            {
+                question: "Who was the first overall pick in the 2016 NFL Draft?",
+                answers: ["Carson Wentz", "Jared Goff", "Joey Bosa", "DeForest Buckner"],
+                correct: 1
+            },
+            {
+                question: "Who was the first overall pick in the 2018 NFL Draft?",
+                answers: ["Sam Darnold", "Josh Allen", "Baker Mayfield", "Lamar Jackson"],
+                correct: 2
+            },
+            {
+                question: "Who was the first overall pick in the 2025 NFL Draft?",
+                answers: ["Shedeur Sanders", "Travis Hunter", "Ashton Jeanty", "Cam Ward"],
+                correct: 3
+            },
+            {
+                question: "Who was the first overall pick in the 2012 NFL Draft?",
+                answers: ["Ryan Tannehill", "Robert Griffin III", "Andrew Luck", "Luke Kuechly"],
+                correct: 2
+            },
+            {
+                question: "Who was the first overall pick in the 2017 NFL Draft?",
+                answers: ["Myles Garrett", "Patrick Mahomes", "Deshaun Watson", "Mitchell Trubisky"],
+                correct: 0
+            },
+            {
+                question: "Who was the first overall pick in the 2010 NFL Draft?",
+                answers: ["Ndamukong Suh", "Sam Bradford", "Trent Williams", "Tim Tebow"],
+                correct: 1
+            },
+            {
+                question: "Who was the first overall pick in the 2013 NFL Draft?",
+                answers: ["EJ Manuel", "Björn Werner", "Eric Fisher", "Luke Joeckel"],
+                correct: 2
+            }
+        ]
+    },
+    
     {
         id: "medium-player-quiz",
         title: "Guess the NFL player by the teams he played for",
