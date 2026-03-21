@@ -121,6 +121,67 @@ window.quizzes = [
         ]
     },
 
+    
+            {
+        id: "easy-players-player-stats-3",
+        title: "Guess the positions of the following current NFL players",
+        category: "players",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "What position does Patrick Mahomes play?",
+                answers: ["Wide receiver", "Cornerback", "Running back", "Quarterback"],
+                correct: 3
+            },
+            {
+                question: "What position does Justin Jefferson play?",
+                answers: ["Linebacker", "Wide receiver", "Quarterback", "Cornerback"],
+                correct: 1
+            },
+            {
+                question: "What position does Ja'Marr Chase play?",
+                answers: ["Safety", "Wide receiver", "Running back", "Cornerback"],
+                correct: 1
+            },
+            {
+                question: "What position does Myles Garrett play?",
+                answers: ["Defensive end", "Offensive tackle", "Defensive tackle", "Tight end"],
+                correct: 0
+            },
+            {
+                question: "What position does Josh Allen play?",
+                answers: ["Defensive end", "Safety", "Quarterback", "Running back"],
+                correct: 2
+            },
+            {
+                question: "What position does Sauce Gardner play?",
+                answers: ["Wide receiver", "Cornerback", "Safety", "Running back"],
+                correct: 1
+            },
+            {
+                question: "What position does Saquon Barkley play?",
+                answers: ["Defensive tackle", "Wide receiver", "Cornerback", "Running back"],
+                correct: 3
+            },
+            {
+                question: "What position does Travis Kelce play?",
+                answers: ["Safety", "Wide receiver", "Tight end", "Quarterback"],
+                correct: 2
+            },
+            {
+                question: "What position does Trent Williams play?",
+                answers: ["Offensive tackle", "Defensive tackle", "Offensive guard", "Quarterback"],
+                correct: 0
+            },
+            {
+                question: "What position does Joe Burrow play?",
+                answers: ["Cornerback", "Tight end", "Wide receiver", "Quarterback"],
+                correct: 3
+            }
+
+        ]
+    },
+    
     {
         id: "easy-draft-quiz",
         title: "NFL Draft Basics",
