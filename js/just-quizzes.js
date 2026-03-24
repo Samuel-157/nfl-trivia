@@ -124,7 +124,7 @@ window.quizzes = [
     
             {
         id: "easy-players-player-stats-3",
-        title: "Guess the positions of the following current NFL players",
+        title: "Guess the positions of current NFL players",
         category: "players",
         difficulty: "easy",
         questions: [
@@ -177,6 +177,66 @@ window.quizzes = [
                 question: "What position does Joe Burrow play?",
                 answers: ["Cornerback", "Tight end", "Wide receiver", "Quarterback"],
                 correct: 3
+            }
+
+        ]
+    },
+
+        {
+        id: "easy-players-player-stats-4",
+        title: "Guess the positions of current NFL players 2",
+        category: "players",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "What position does Jaxon Smith-Njigba play?",
+                answers: ["Cornerback", "Kicker", "Wide receiver", "Running back"],
+                correct: 2
+            },
+            {
+                question: "What position does Sam Darnold play?",
+                answers: ["Quarterback", "Running back", "Safety", "Linebacker"],
+                correct: 0
+            },
+            {
+                question: "What position does Fred Warner play?",
+                answers: ["Quarterback", "Safety", "Defensive end", "Linebacker"],
+                correct: 3
+            },
+            {
+                question: "What position does Trent McDuffie play?",
+                answers: ["Safety", "Cornerback", "Wide receiver", "Running back"],
+                correct: 1
+            },
+            {
+                question: "What position does Drake Maye play?",
+                answers: ["Running back", "Quarterback", "Wide receiver", "Linebacker"],
+                correct: 1
+            },
+            {
+                question: "What position does Kenneth Walker III play?",
+                answers: ["Running back", "Wide receiver", "Defensive tackle", "Offensive tackle"],
+                correct: 0
+            },
+            {
+                question: "What position does Creed Humphrey play?",
+                answers: ["Linebacker", "Defensive tackle", "Offensive guard", "Center"],
+                correct: 3
+            },
+            {
+                question: "What position does Quenton Nelson play?",
+                answers: ["Defensive tackle", "Offensive tackle", "Offensive guard", "Center"],
+                correct: 2
+            },
+            {
+                question: "What position does Nico Collins play?",
+                answers: ["Running back", "Wide receiver", "Cornerback", "Tight end"],
+                correct: 1
+            },
+            {
+                question: "What position does Aidan Hutchinson play?",
+                answers: ["Defensive end", "Defensive tackle", "Center", "Linebacker"],
+                correct: 0
             }
 
         ]
