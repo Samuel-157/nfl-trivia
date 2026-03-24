@@ -114,7 +114,20 @@ const allTimeAverageScore = allTimeScoreCount
   ? Math.round(allTimeScoreSum / allTimeScoreCount)
   : 0;
 
-// =================== RENDER ===================
+// =================== ALL ATTEMPTS STATS ===================
+
+const attempts =
+  JSON.parse(localStorage.getItem("quizAttempts")) || {};
+
+const attemptsCount = attempts.count || 0;
+const attemptsSum = attempts.totalPercentSum || 0;
+
+const attemptsAverage = attemptsCount
+  ? Math.round(attemptsSum / attemptsCount)
+  : 0;
+  
+
+  // =================== RENDER ===================
 
 statsSummary.innerHTML = `
   <div class="stats-card">
@@ -154,7 +167,8 @@ statsSummary.innerHTML = `
       <strong>${allTimeAverageScore}%</strong>
     </div>
   </div>
-    <div class="stats-card" style="margin-top: 30px;">
+
+  <div class="stats-card" style="margin-top: 30px;">
     <h3>🎲 Random Quiz Stats</h3>
 
     <div class="stat-row">
@@ -165,6 +179,19 @@ statsSummary.innerHTML = `
     <div class="stat-row highlight">
       <span>Average Score</span>
       <strong>${randomAverage}%</strong>
+    </div>
+  </div>
+
+  <div class="stats-card" style="margin-top: 30px;">
+    <h3>📈 All Attempts (All Time)</h3>
+    <div class="stat-row">
+      <span>Quizzes Played</span>
+      <strong>${attemptsCount}</strong>
+    </div>
+
+    <div class="stat-row highlight">
+      <span>Average Score</span>
+      <strong>${attemptsAverage}%</strong>
     </div>
   </div>
 `;
