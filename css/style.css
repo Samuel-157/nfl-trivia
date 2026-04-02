@@ -317,6 +317,10 @@ h1, h2 {
     color: #000;
 }
 
+.modal-content {
+    text-align: center;
+}
+
 /* ================= QUIZ PAGE (BACK BUTTON POSITION FIX) ================= */
 
 .quiz-page .back-btn {
