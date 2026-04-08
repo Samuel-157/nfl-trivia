@@ -1363,6 +1363,65 @@ window.quizzes = [
     },
     
     {
+        id: "hard-player-quiz-5",
+        title: "The John Elway Quiz – How Well Do You Know This NFL Legend?",
+        category: "players",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "For which NFL team did John Elway play his whole career?",
+                answers: ["Kansas City Chiefs", "Denver Broncos", "Arizona Cardinals", "St. Louis Rams"],
+                correct: 1
+            },
+            {
+                question: "Where did John Elway go to college?",
+                answers: ["Harvard", "Ohio State", "USC", "Stanford"],
+                correct: 3
+            },
+            {
+                question: "Which number did John Elway wear in the NFL?",
+                answers: ["5", "7", "15", "17"],
+                correct: 1
+            },
+            {
+                question: "In how many Super Bowls did John Elway play?",
+                answers: ["2", "4", "5", "8"],
+                correct: 2
+            },
+            {
+                question: "How many Super Bowls did John Elway win?",
+                answers: ["1", "2", "3", "5"],
+                correct: 1
+            },
+            {
+                question: "How many MVP awards did John Elway win?",
+                answers: ["1", "2", "4", "6"],
+                correct: 0
+            },
+            {
+                question: "How many Super Bowl MVP awards did John Elway win?",
+                answers: ["1", "2", "3", "5"],
+                correct: 0
+            },
+            {
+                question: "Which receiver caught the most passing touchdowns from John Elway?",
+                answers: ["Rod Smith", "Ed McCaffrey", "Shannon Sharpe", "Vance Johnson"],
+                correct: 2
+            },
+            {
+                question: "How many passing touchdowns did John Elway throw in his NFL career?",
+                answers: ["234", "273", "300", "329"],
+                correct: 2
+            },
+            {
+                question: "How many years did John Elway play in the NFL?",
+                answers: ["13", "16", "18", "21"],
+                correct: 1
+            },
+        ]
+    },
+    
+    {
         id: "hard-draft-quiz",
         title: "Guess where following NFL players went to college",
         category: "draft",
