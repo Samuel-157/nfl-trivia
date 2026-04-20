@@ -1011,7 +1011,7 @@ window.quizzes = [
     
                  {
         id: "medium-player-quiz-3",
-        title: "The Aaron Rodgers Quiz - How well do you know this NFL legend?",
+        title: "The Aaron Rodgers Quiz - How well do you know this NFL superstar?",
         category: "players",
         difficulty: "medium",
         questions: [
@@ -1656,6 +1656,65 @@ window.quizzes = [
                 question: "How many years did John Elway play in the NFL?",
                 answers: ["13", "16", "18", "21"],
                 correct: 1
+            },
+        ]
+    },
+
+    {
+        id: "hard-player-quiz-6",
+        title: "The Troy Aikman Quiz – How Well Do You Know This NFL Legend?",
+        category: "players",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Where did Troy Aikman go to college (1986-1989)?",
+                answers: ["USC", "Ohio State", "UCLA", "Oregon"],
+                correct: 2
+            },
+            {
+                question: "Which number did Troy Aikman wear in college that was later retired?",
+                answers: ["5", "7", "8", "12"],
+                correct: 2
+            },
+            {
+                question: "By which team was Troy Aikman drafted?",
+                answers: ["New England Patriots", "LA Rams", "NY Jets", "Dallas Cowboys"],
+                correct: 3
+            },
+            {
+                question: "How many MVP awards has Troy Aikman won?",
+                answers: ["0", "1", "2", "5"],
+                correct: 0
+            },
+            {
+                question: "How many Super Bowl MVP awards has Troy Aikman won?",
+                answers: ["0", "1", "3", "4"],
+                correct: 1
+            },
+            {
+                question: "How many Super Bowls has Troy Aikman won?",
+                answers: ["1", "2", "3", "6"],
+                correct: 2
+            },
+            {
+                question: "Which receiver caught the most passing yards from Troy Aikman?",
+                answers: ["Rocket Ismail", "Emmitt Smith", "Alvin Harper", "Michael Irvin"],
+                correct: 3
+            },
+            {
+                question: "Which receiver caught the most passing touchdowns from Troy Aikman?",
+                answers: ["David LaFleur", "Emmitt Smith", "Jay Novacek", "Michael Irvin"],
+                correct: 3
+            },
+            {
+                question: "How many seasons did Troy Aikman play in the NFL?",
+                answers: ["10", "12", "15", "18"],
+                correct: 1
+            },
+            {
+                question: "After retiring from the NFL, what job does Troy Aikman pursue now?",
+                answers: ["NFL Head Coach", "College Football Head Coach", "NFL commentator", "NFL referee"],
+                correct: 2
             },
         ]
     },
