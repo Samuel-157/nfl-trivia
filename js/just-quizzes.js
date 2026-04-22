@@ -1185,8 +1185,67 @@ window.quizzes = [
             }
         ]
     },
+
+    {
+        id: "medium-player-quiz-6",
+        title: "Guess the leaders in the following 2025 NFL season statistics – Offense",
+        category: "players",
+        difficulty: "medium",
+        questions: [
+            {
+                question: "Which player led the NFL in passing yards this season (2025)?",
+                answers: ["Josh Allen", "Matthew Stafford", "Jared Goff", "Drake Maye"],
+                correct: 1
+            },
+            {
+                question: "Which player led the NFL in rushing yards this season (2025)?",
+                answers: ["Jonathan Taylor", "Derrick Henry", "De'Von Achan", "James Cook"],
+                correct: 3
+            },
+            {
+                question: "Which player led the NFL in receiving yards this season (2025)?",
+                answers: ["Trey McBride", "Puca Nacua", "Jaxon Smith-Njigba", "George Pickens"],
+                correct: 1
+            },
+            {
+                question: "Which player led the NFL in passing touchdowns this season (2025)?",
+                answers: ["Matthew Stafford", "Jared Goff", "Dak Prescott", "Patrick Mahomes"],
+                correct: 0
+            },
+            {
+                question: "Which player led the NFL in rushing touchdowns this season (2025)?",
+                answers: ["Jahmyr Gibbs", "Derrick Henry", "Jonathan Taylor", "Josh Jacobs"],
+                correct: 2
+            },
+            {
+                question: "Which player led the NFL in receiving touchdowns this season (2025)?",
+                answers: ["Puca Nacua", "Davante Adams", "Tee Higgins", "Dallas Goedert"],
+                correct: 1
+            },
+            {
+                question: "Which player led the NFL in interceptions thrown this season (2025)?",
+                answers: ["Geno Smith", "Sam Darnold", "Josh Allen", "Justin Herbert"],
+                correct: 0
+            },
+            {
+                question: "Which player led the NFL in fumbles lost this season (2025)?",
+                answers: ["Cam Ward", "Baker Mayfield", "James Cook", "Derrick Henry"],
+                correct: 1
+            },
+            {
+                question: "Which player led the NFL in dropped passes this season (2025)?",
+                answers: ["Amon-Ra St. Brown", "Jerry Jeudy", "Courtland Sutton", "Jameson Williams"],
+                correct: 3
+            },
+            {
+                question: "Which player led the NFL in penalties this season (2025)?",
+                answers: ["Orlando Browns", "Patrick Surtain", "JC Latham", "Creed Humphrey"],
+                correct: 2
+            }
+        ]
+    },
     
-        {
+    {
         id: "medium-teams-quiz",
         title: "Guess the stadium of following NFL teams",
         category: "teams",
