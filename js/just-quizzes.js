@@ -2074,7 +2074,7 @@ window.quizzes = [
 
     {
         id: "hard-teams-quiz-3",
-        title: "Guess the best NFL team in the following statistics",
+        title: "Guess the best NFL team in the following 2025 season statistics",
         category: "teams",
         difficulty: "hard",
         questions: [
