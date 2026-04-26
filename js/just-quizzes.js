@@ -2130,6 +2130,75 @@ window.quizzes = [
             }
         ]
     },
+
+    {
+        id: "hard-draft-quiz-6",
+        title: "Guess picks 21-32 of the 2026 NFL draft",
+        category: "draft",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Which player was selected twenty-first overall by the Pittsburgh Steelers?",
+                answers: ["Max Iheanachor", "Kadyn Proctor", "De'Zhaun Stribling", "Keldric Faulk"],
+                correct: 0
+            },
+            {
+                question: "Which player was selected twenty-second overall by the LA Chargers?",
+                answers: ["Malachi Lawrence", "Dillon Thieneman", "Akheem Mesidor", "Omar Cooper Jr."],
+                correct: 2
+            },
+            {
+                question: "Which player was selected twenty-third overall by the Dallas Cowboys?",
+                answers: ["Malachi Lawrence", "Dillon Thieneman", "Denzel Boston",  "Keylan Rutledge"],
+                correct: 0
+            },
+            {
+                question: "Which player was selected twenty-fourth overall by the Cleveland Browns?",
+                answers: ["Denzel Boston", "KC Concepcion", "Keldric Faulk", "Peter Woods"],
+                correct: 1
+            },
+            {
+                question: "Which player was selected twenty-fifth overall by the Chicago Bears?",
+                answers: ["Chris Johnson", "Peter Woods", "Denzel Boston", "Dillon Thieneman"],
+                correct: 3
+            },
+            {
+                question: "Which player was selected twenty-sixth overall by the Houston Texans?",
+                answers: ["Chris Johnson", "Peter Woods", "Keylon Rutledge", "Jadarian Price"],
+                correct: 2
+            },
+            {
+                question: "Which player was selected twenty-seventh overall by the Miami Dolphins?",
+                answers: ["Denzel Boston", "De'Zhaun Stribling", "Keldric Faulk", "Chris Johnson"],
+                correct: 3
+            },
+            {
+                question: "Which player was selected twenty-eighth overall by the New England Patriots?",
+                answers: ["Caleb Lomu", "Jadarian Price", "Kayden McDonald", "Omar Cooper Jr."],
+                correct: 0
+            },
+            {
+                question: "Which player was selected twenty-ninth overall by the Kansas City Chiefs?",
+                answers: ["R Mason Thomas", "Colton Hood", "Kayden McDonald", "Peter Woods"],
+                correct: 3
+            },
+            {
+                question: "Which player was selected thirtieth overall by the NY Jets?",
+                answers: ["Omar Cooper Jr.", "Jadarian Price", "Chase Bisontis", "Treydan Stukes"],
+                correct: 0
+            },
+            {
+                question: "Which player was selected thirty-first overall by the Tennessee Titans?",
+                answers: ["Chase Bisontis", "Keldric Faulk", "Denzel Boston", "Zion Young"],
+                correct: 1
+            },
+            {
+                question: "Which player was selected thirty-second overall by the Seattle Seahawks?",
+                answers: ["Colton Hood", "Jadarian Price", "Kayden McDonald", "Jacob Rodriguez"],
+                correct: 1
+            },
+        ]
+    },
     
     {
         id: "hard-teams-quiz",
