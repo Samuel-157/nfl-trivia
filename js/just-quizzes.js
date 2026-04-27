@@ -360,6 +360,65 @@ window.quizzes = [
     },
 
     {
+        id: "easy-draft-quiz-3",
+        title: "Guess the positions of the first 10 picks of the 2026 NFL draft",
+        category: "draft",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "Which position does #1 Fernando Mendoza play (Las Vegas Raiders)?",
+                answers: ["Quarterback", "Wide receiver", "Cornerback", "Linebacker"],
+                correct: 0
+            },
+            {
+                question: "Which position does #2 David Bailey play (NY Jets)?",
+                answers: ["Quarterback", "Defensive tackle", "EDGE rusher", "Linebacker"],
+                correct: 2
+            },
+            {
+                question: "Which position does #3 Jeremiyah Love play (Arizona Cardinals)?",
+                answers: ["Wide receiver", "Linebacker", "Center", "Runningback"],
+                correct: 3
+            },
+            {
+                question: "Which position does #4 Carnell Tate play (Tennessee Titans)?",
+                answers: ["Quarterback", "Cornerback", "Wide receiver", "Linebacker"],
+                correct: 2
+            },
+            {
+                question: "Which position does #5 Arvell Reese play (NY Giants)?",
+                answers: ["Linebacker", "Defensive tackle", "Safety", "Tight end"],
+                correct: 0
+            },
+            {
+                question: "Which position does #6 Mansoor Delane play (Kansas City Chiefs)?",
+                answers: ["Wide receiver", "Cornerback", "Linebacker", "Safety"],
+                correct: 1
+            },
+            {
+                question: "Which position does #7 Sonny Styles play (Washington Commanders)?",
+                answers: ["Linebacker", "EDGE rusher", "Center", "Guard"],
+                correct: 0
+            },
+            {
+                question: "Which position does #8 Jordyn Tyson play (New Orleans Saints)?",
+                answers: ["Quarterback", "Cornerback", "Wide receiver", "Tight end"],
+                correct: 2
+            },
+            {
+                question: "Which position does #9 Spencer Fano play (Cleveland Browns)?",
+                answers: ["Safety", "Defensive tackle", "Center", "Offensive tackle"],
+                correct: 3
+            },
+            {
+                question: "Which position does #10 Francis Mauigoa play (NY Giants)?",
+                answers: ["EDGE rusher", "Defensive tackle", "Tight end", "Offensive tackle"],
+                correct: 3
+            }
+        ]
+    },
+
+    {
         id: "easy-teams-quiz",
         title: "Guess the name of the NFL team",
         category: "teams",
