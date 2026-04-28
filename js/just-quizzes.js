@@ -124,7 +124,7 @@ window.quizzes = [
     
             {
         id: "easy-players-player-stats-3",
-        title: "Guess the positions of current NFL players",
+        title: "Guess the positions of current NFL star players",
         category: "players",
         difficulty: "easy",
         questions: [
@@ -184,7 +184,7 @@ window.quizzes = [
 
         {
         id: "easy-players-player-stats-4",
-        title: "Guess the positions of current NFL players - 2",
+        title: "Guess the positions of current NFL star players - 2",
         category: "players",
         difficulty: "easy",
         questions: [
