@@ -241,6 +241,66 @@ window.quizzes = [
 
         ]
     },
+
+    {
+        id: "easy-players-player-stats-5",
+        title: "Guess the positions of current NFL star players - 3",
+        category: "players",
+        difficulty: "easy",
+        questions: [
+            {
+                question: "What position does Matthew Stafford play?",
+                answers: ["Center", "Quarterback", "Tight end", "Linebacker"],
+                correct: 1
+            },
+            {
+                question: "What position does Patrick Surtain II play?",
+                answers: ["Quarterback", "Safety", "Running back", "Cornerback"],
+                correct: 3
+            },
+            {
+                question: "What position does Chris Jones play?",
+                answers: ["Defensive end", "Linebacker", "Offensive tackle", "Defensive tackle"],
+                correct: 3
+            },
+            {
+                question: "What position does Roquan Smith play?",
+                answers: ["Quarterback", "Tight end", "Linebacker", "Center"],
+                correct: 2
+            },
+            {
+                question: "What position does Derwin James Jr. play?",
+                answers: ["Cornerback", "Safety", "Running back", "Wide receiver"],
+                correct: 1
+            },
+            {
+                question: "What position does Lamar Jackson play?",
+                answers: ["Quarterback", "Safety", "Running back", "Wide receiver"],
+                correct: 0
+            },
+            {
+                question: "What position does Trent Williams play?",
+                answers: ["Safety", "Guard", "Offensive tackle", "Defensive tackle"],
+                correct: 2
+            },
+            {
+                question: "What position does Joe Thuney play?",
+                answers: ["Linebacker", "Guard", "Cornerback", "Wide receiver"],
+                correct: 1
+            },
+            {
+                question: "What position does Puka Nacua play?",
+                answers: ["Quarterback", "Cornerback", "Safety", "Wide receiver"],
+                correct: 3
+            },
+            {
+                question: "What position does Christian McCaffrey play?",
+                answers: ["Running back", "Wide receiver", "Linebacker", "Safety"],
+                correct: 0
+            }
+
+        ]
+    },
     
     {
         id: "easy-draft-quiz",
