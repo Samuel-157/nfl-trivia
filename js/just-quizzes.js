@@ -1955,6 +1955,65 @@ window.quizzes = [
             },
         ]
     },
+
+        {
+        id: "hard-player-quiz-7",
+        title: "The Andrew Luck Quiz – How Well Do You Know This NFL Legend?",
+        category: "players",
+        difficulty: "hard",
+        questions: [
+            {
+                question: "Where did Andrew Luck go to college?",
+                answers: ["Stanford", "USC", "Texas", "Texas A&M"],
+                correct: 0
+            },
+            {
+                question: "In which year was Andrew Luck drafted as the first overall pick?",
+                answers: ["2010", "2012", "2013", "2014"],
+                correct: 1
+            },
+            {
+                question: "Which number did Andrew Luck wear both in college and the NFL?",
+                answers: ["9", "10", "12", "22"],
+                correct: 2
+            },
+            {
+                question: "For which team did Andrew Luck play in the NFL?",
+                answers: ["Tampa Bay Buccaneers", "Indianapolis Colts", "Jacksonville Jaguars", "Chicago Bears"],
+                correct: 1
+            },
+            {
+                question: "How many MVP awards has Andrew Luck won?",
+                answers: ["0", "1", "2", "4"],
+                correct: 0
+            },
+            {
+                question: "How many times was Andrew Luck selected in the Pro Bowl?",
+                answers: ["1", "3", "4", "6"],
+                correct: 2
+            },
+            {
+                question: "How many times did Andrew Luck play in the Super Bowl?",
+                answers: ["0", "1", "2", "3"],
+                correct: 0
+            },
+            {
+                question: "Which receiver caught the most passing yards from Andrew Luck?",
+                answers: ["Coby Fleener", "Nyheim Hynes", "Donnie Avery", "T.Y. Hilton"],
+                correct: 3
+            },
+            {
+                question: "Which receiver caught the most passing touchdowns from Andrew Luck?",
+                answers: ["Coby Fleener", "T.Y. Hilton", "Reggie Wayne", "Jack Doyle"],
+                correct: 1
+            },
+            {
+                question: "How many seasons did Andrew Luck play in the NFL?",
+                answers: ["5", "6", "9", "11"],
+                correct: 1
+            },
+        ]
+    },
     
     {
         id: "hard-draft-quiz",
